@@ -1,9 +1,17 @@
-.header {
+.toolbar {
+  background: #EEF0F5;
   --background: #EEF0F5;
+
 }
 
-.container {
-  .button1 {
-    --background: 16CDB4;
+
+  ion-button {
+   --ion-color-primary: #16CDB4;
+   margin-top: 140%;
+   margin-left: 40%;
   }
+
+ion-content {
+  background: #EEF0F5;
+  --background: #EEF0F5; 
 }
