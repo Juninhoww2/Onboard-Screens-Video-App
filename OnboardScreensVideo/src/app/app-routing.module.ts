@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'getstarded',
+    loadChildren: () => import('./getstarded/getstarded.module').then( m => m.GetstardedPageModule)
+  },
 ];
 
 @NgModule({
