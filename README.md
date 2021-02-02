@@ -27,3 +27,5 @@ ionic serve
 ###### Thank you.
 
 Inspirint on Dribbble: https://dribbble.com/shots/14982680-On-boarding-screens
+
+Deploy on Vercel.
